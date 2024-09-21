@@ -1,0 +1,217 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: rgb(33, 34, 45);
+}
+
+.main {
+  display: flex;
+}
+
+#onclick1 {
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  left: 95%;
+  border: 1px solid rgb(78, 79, 85);
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 11px;
+}
+
+#onclick1:hover {
+  background-color: rgb(78, 79, 85);
+  color: black;
+}
+
+.sidepanel {
+  width: 280px;
+  height: 100vh;
+  position: fixed;
+  margin-top: 41px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(23, 24, 33);
+}
+.sidepanel .sidepanelitems {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  gap: 15px;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: rgb(23, 24, 33);
+}
+.sidepanel .sidepanelitems div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.sidepanel .sidepanelitems div a {
+  text-decoration: none;
+  width: 100%;
+}
+.sidepanel .sidepanelitems div a button {
+  border: none;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  font-size: 22px;
+  font-weight: 600;
+  transition: all 0.5s;
+  color: rgb(78, 79, 85);
+  background-color: rgb(23, 24, 33);
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+}
+.sidepanel .sidepanelitems div a button i {
+  padding-right: 10px;
+  transition: all 0.5s;
+  border-radius: 8px;
+  color: rgb(78, 79, 85);
+  background-color: rgb(23, 24, 33);
+}
+.sidepanel .sidepanelitems div a button a {
+  color: rgb(78, 79, 85);
+  text-decoration: none;
+}
+.sidepanel .sidepanelitems div button {
+  border: none;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  font-size: 22px;
+  font-weight: 600;
+  transition: all 0.5s;
+  color: rgb(78, 79, 85);
+  background-color: rgb(23, 24, 33);
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+}
+.sidepanel .sidepanelitems div button i {
+  padding-right: 10px;
+  transition: all 0.5s;
+  border-radius: 8px;
+  color: rgb(78, 79, 85);
+  background-color: rgb(23, 24, 33);
+}
+.sidepanel .sidepanelitems div button a {
+  color: rgb(78, 79, 85);
+  text-decoration: none;
+}
+.sidepanel .sidepanelitems div button:hover {
+  color: rgb(23, 24, 33);
+  background-color: rgb(78, 79, 85);
+}
+.sidepanel .sidepanelitems div button:hover i {
+  color: rgb(23, 24, 33);
+  background-color: rgb(78, 79, 85);
+}
+.sidepanel .sidepanelitems div button:hover a {
+  color: rgb(23, 24, 33);
+  background-color: rgb(78, 79, 85);
+}
+
+.navbar {
+  position: fixed;
+  background-color: rgb(23, 24, 33);
+  height: 85px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 25px;
+  align-items: center;
+}
+.navbar .logo img {
+  height: 80px;
+  width: 80px;
+}
+.navbar .logo2 {
+  padding-left: 10px;
+}
+.navbar .logo {
+  display: flex;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+.navbar .logo h2 {
+  color: rgb(207, 68, 105);
+  font-weight: 600;
+  font-size: 30px;
+  background-color: rgb(23, 24, 33);
+}
+.navbar .logo h4 {
+  color: rgb(68, 168, 239);
+  font-weight: 400;
+  font-size: 20px;
+  background-color: rgb(23, 24, 33);
+}
+.navbar i {
+  color: rgb(78, 79, 85);
+  font-size: 35px;
+}
+.navbar #user {
+  margin-right: 40px;
+  color: rgb(68, 168, 239);
+}
+
+h1 {
+  color: rgb(132, 135, 152);
+  font-size: 30px;
+  font-weight: 650;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#table2 {
+  margin-left: 295px;
+  color: rgb(141, 145, 163);
+  text-align: center;
+  padding: 15px;
+  background-color: rgb(45, 47, 61);
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+}
+#table2 td {
+  font-size: 17px;
+  padding: 13px;
+  background-color: rgb(23, 24, 33);
+  border: none;
+  width: 167px;
+}
+#table2 th {
+  padding: 10px;
+  border: none;
+  font-size: 22px;
+  font-weight: 650;
+  color: rgb(23, 24, 33);
+  background-color: rgb(68, 168, 239);
+}
+
+.head {
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-left: 290px;
+  margin-top: 80px;
+  color: rgb(132, 135, 152);
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

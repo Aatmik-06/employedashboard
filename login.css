@@ -1,0 +1,108 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: rgb(23, 24, 33);
+}
+
+.main {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: rgb(37, 38, 48);
+  color: rgb(173, 176, 195);
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 2%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 2%;
+  border-radius: 10px;
+}
+
+.logo img {
+  height: 80px;
+  width: 80px;
+}
+
+.logo {
+  display: flex;
+  margin-top: 38px;
+  justify-content: center;
+  text-align: center;
+}
+.logo h2 {
+  color: rgb(207, 68, 105);
+  font-weight: 600;
+  font-size: 30px;
+}
+.logo h4 {
+  color: rgb(68, 168, 239);
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.login label {
+  font-weight: 550;
+  font-size: 22px;
+  color: rgb(207, 68, 105);
+}
+.login .username {
+  color: rgb(68, 168, 239);
+}
+.login h1 {
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.login h4 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+.login h4 a {
+  color: rgb(68, 168, 239);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.login h4 a:hover {
+  color: rgb(207, 68, 105);
+}
+.login input {
+  background-color: rgb(175, 177, 192);
+  border: none;
+  padding: 15px;
+  margin-top: 8px;
+  font-size: 17px;
+  width: 400px;
+  color: rgb(23, 24, 33);
+  border-radius: 5px;
+  border: none;
+  transition: all 0.5s;
+}
+.login input:hover {
+  background-color: rgb(208, 211, 234);
+}
+.login button {
+  background-color: rgb(68, 168, 239);
+  color: rgb(23, 24, 33);
+  border-radius: 5px;
+  font-size: 25px;
+  width: 400px;
+  padding: 10px;
+  border: none;
+  font-weight: 600;
+  transition: all 0.4s;
+}
+.login button:hover {
+  background-color: rgb(207, 68, 105);
+}/*# sourceMappingURL=login.css.map */
